@@ -11,7 +11,7 @@ jQuery(window).load(function() {
         }
         var safeTerm = encodeURIComponent(term); 
         var googleLucky = 'http://www.google.com/search?h1=en&q='+safeTerm+'&btnI=1';
-        jQuery('#wp-link-backdrop').prepend('<h1 id="keymaster" style="color:white;font-weight: bolder;width: 580px;height: 100px;margin: 7px auto;">Standby for Autolink. Are you the gatekeeper?</h1>');
+        jQuery('#wp-link-backdrop').prepend('<h1 id="keymaster" style="color:white;font-weight: bolder;width: 580px;height: 100px;margin: 7px auto;">Standby for Autolink.</h1>');
         jQuery.post(ajaxurl, {
 			action: 'get_lucky_with_google',
 			google_lucky_url: googleLucky
@@ -43,7 +43,7 @@ jQuery(window).load(function() {
         }
         var safeTerm = encodeURIComponent(term); 
         var googleLucky = 'http://www.google.com/search?h1=en&q='+safeTerm+'&btnI=1';
-        jQuery('#wp-link-backdrop').prepend('<h1 id="keymaster" style="color:white;font-weight: bolder;width: 580px;height: 100px;margin: 7px auto;">Standby for Autolink. Are you the gatekeeper?</h1>');
+        jQuery('#wp-link-backdrop').prepend('<h1 id="keymaster" style="color:white;font-weight: bolder;width: 580px;height: 100px;margin: 7px auto;">Standby for Autolink.</h1>');
         jQuery.post(ajaxurl, {
 			action: 'get_lucky_with_google',
 			google_lucky_url: googleLucky
